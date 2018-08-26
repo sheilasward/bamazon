@@ -1,0 +1,26 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheilasward/bamazon.git"
+  },
+  "author": "Sheila S Ward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheilasward/bamazon/issues"
+  },
+  "homepage": "https://github.com/sheilasward/bamazon#readme",
+  "dependencies": {
+    "easy-table": "^1.1.1",
+    "enquirer": "^1.0.3",
+    "inquirer": "^6.1.0",
+    "mysql": "^2.16.0",
+    "sprintf-js": "^1.1.1"
+  }
+}
