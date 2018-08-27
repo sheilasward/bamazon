@@ -172,6 +172,7 @@ function createProduct() {
         product_name: newProdName,
         department_name: newDeptName,
         price: newProdPrice,
+        product_sales: 0,
         stock_quantity: newStockQty
       },
       function(err, res) {

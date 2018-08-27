@@ -9,7 +9,7 @@ CREATE TABLE products (
   product_name VARCHAR(100) NOT NULL,
   department_name VARCHAR(60),
   price DECIMAL(10,2),
-  product_sales DECIMAL(17,2);
+  product_sales DECIMAL(17,2),
   stock_quantity INTEGER(10),
   PRIMARY KEY (item_id)
 );
@@ -49,8 +49,6 @@ CREATE TABLE departments (
   department_id INTEGER(10) NOT NULL AUTO_INCREMENT,
   department_name VARCHAR(60),
   over_head_costs INTEGER(10),
-  price DECIMAL(10,2),
-  stock_quantity INTEGER(10),
   PRIMARY KEY (department_id)
 );
 
